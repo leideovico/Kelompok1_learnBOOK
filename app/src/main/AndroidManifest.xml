@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Permission for App-->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/learnbook2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UASPROJECTMAP"
+        tools:targetApi="31">
+
+        <!--Activity yang Digunakan-->
+        <!--MainAppActivity. Diakses ketika sudah register atau login-->
+        <activity
+            android:configChanges="uiMode"
+            android:name=".MainAppActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.UASPROJECTMAP" />
+        <!--MainActivity. Tampilan awal aplikasi. Untuk Login-->
+        <activity
+            android:configChanges="uiMode"
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UASPROJECTMAP" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--RegisterActivity. Tampilan register.-->
+        <activity
+            android:configChanges="uiMode"
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UASPROJECTMAP" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

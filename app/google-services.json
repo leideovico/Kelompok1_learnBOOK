@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "64702753713",
+    "firebase_url": "https://uas-project-map-default-rtdb.firebaseio.com",
+    "project_id": "uas-project-map",
+    "storage_bucket": "uas-project-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64702753713:android:ceb5cc7c9dc6535e88eb90",
+        "android_client_info": {
+          "package_name": "com.example.uasprojectmap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMiAEhuY7b3n8XaHYatQKVoa__agEumB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

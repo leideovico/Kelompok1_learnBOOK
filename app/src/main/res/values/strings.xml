@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">learnBOOK</string>
+    <string name="belumDaftar">Belum Daftar?</string>
+    <string name="subjudul">Aplikasi E-Learning Sekolah Panti</string>
+    <string name="loginButton">Log In</string>
+    <string name="email">Email (username@gmail.com)</string>
+    <string name="password">Kata Sandi (minimal 8 karakter)</string>
+    <string name="learnbook_logo">LearnBOOK Logo</string>
+    <string name="belum_daftar">Belum Daftar?</string>
+    <string name="login">LOGIN</string>
+    <string name="alreadyhaveacc">Sudah ada akun?</string>
+    <string name="register">REGISTER</string>
+    <string name="konfirmasi_kata_sandi">Konfirmasi Kata Sandi</string>
+    <string name="title_activity_home">Home</string>
+</resources>
